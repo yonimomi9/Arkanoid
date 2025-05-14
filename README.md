@@ -1,4 +1,5 @@
 # Arkanoid 🎮
+<img src="src/pictures/logo.png" alt="Arkanoid" width="600"/>
 
 Welcome to **Arkanoid** — a classic brick-breaker game implemented in Java as part of an Object-Oriented Programming course.
 
@@ -25,13 +26,19 @@ Each level introduces unique block layouts and challenges:
 Use the arrows to navigate the paddle!
 
 Level 1
+
 <img src="src/pictures/levelone.png" alt="Level 1" width="400"/>
 
+
 Level 2
+
 <img src="src/pictures/leveltwo.png" alt="Level 2" width="400"/>
 
+
 Level 3
+
 <img src="src/pictures/levelthree.png" alt="Level 3" width="400"/>
+
 
 ⏸️ Pause Functionality
 Press P to pause the game and SPACE to resume.
