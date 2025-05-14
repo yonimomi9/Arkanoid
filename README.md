@@ -12,8 +12,8 @@ Welcome to **Arkanoid** — a classic brick-breaker game implemented in Java as 
 You can run the game in **two ways**:
 
 ### 1. Using Terminal (with Apache Ant)
-```bash
-ant run
+    ```bash
+    ant run
 
 Make sure you have Apache Ant installed and that build.xml is present in the root directory.
 
