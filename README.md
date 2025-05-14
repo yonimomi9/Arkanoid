@@ -24,17 +24,17 @@ Simply double-click the Arkanoid.jar file.
 Each level introduces unique block layouts and challenges:
 
 Level 1
-![alt text](src/pictures/levelone.png)
+![Level 1](src/pictures/levelone.png)
 
 Level 2
-![alt text](src/pictures/leveltwo.png)
+![Level 2](src/pictures/leveltwo.png)
 
 Level 3
-![alt text](src/pictures/levelthree.png)
+![Level 3](src/pictures/levelthree.png)
 
 ⏸️ Pause Functionality
 Press P to pause the game and SPACE to resume.
-![alt text](src/pictures/pause.png)
+![Pause](src/pictures/pause.png)
 
 🛠️ Technologies Used
 Java
