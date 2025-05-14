@@ -42,7 +42,7 @@ Level 3
 
 ⏸️ Pause Functionality
 Press P to pause the game and SPACE to resume.
-<img src="src/pictures/pause.png" alt="Pause" width="400"/>
+<img src="src/pictures/pauseee.png" alt="Pause" width="400"/>
 
 🛠️ Technologies Used
 Java
