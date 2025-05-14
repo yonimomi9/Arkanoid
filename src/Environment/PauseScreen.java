@@ -28,13 +28,13 @@ public class PauseScreen implements Animation {
         int width = d.getWidth();
         int height = d.getHeight();
 
-        // Gradient background using 30 horizontal stripes
+        // Gradient background using 40 horizontal stripes with a blue fade
         int sections = 40;
         int stripeHeight = height / sections;
         for (int i = 0; i < sections; i++) {
-            int grayValue = 50 + (i * 5); // 50 to ~200
-            if (grayValue > 255) grayValue = 255;
-            d.setColor(new java.awt.Color(grayValue, grayValue, grayValue));
+            int blue = 100 + (i * 4); // from 100 to 260+
+            if (blue > 255) blue = 255;
+            d.setColor(new java.awt.Color(0, 0, blue));
             d.fillRectangle(0, i * stripeHeight, width, stripeHeight);
         }
 
@@ -44,11 +44,9 @@ public class PauseScreen implements Animation {
         int boxX = (width - boxWidth) / 2;
         int boxY = height / 2 - boxHeight / 2;
 
-        // d.setColor(new java.awt.Color(240, 240, 240)); // light gray
-        // d.fillRectangle(boxX, boxY, boxWidth, boxHeight);
 
         // Text
-        d.setColor(java.awt.Color.BLACK);
+        d.setColor(java.awt.Color.WHITE);
         d.drawText(width / 2 - 200, height / 2 - 10, "Game Paused", 58);
         d.drawText(width / 2 - 220, height / 2 + 40, "Press SPACE to continue...", 36);
 

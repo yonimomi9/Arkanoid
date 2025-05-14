@@ -12,7 +12,6 @@ Welcome to **Arkanoid** — a classic brick-breaker game implemented in Java as 
 You can run the game in **two ways**:
 
 ### 1. Using Terminal (with Apache Ant)
-    ```bash
     ant run
 
 Make sure you have Apache Ant installed and that build.xml is present in the root directory.
@@ -23,19 +22,20 @@ Simply double-click the Arkanoid.jar file.
 🧩 Features
 🧱 Multiple Levels
 Each level introduces unique block layouts and challenges:
+Use the arrows to navigate the paddle!
 
 Level 1
-![Level 1](src/pictures/levelone.png)
+<img src="src/pictures/levelone.png" alt="Level 1" width="400"/>
 
 Level 2
-![Level 2](src/pictures/leveltwo.png)
+<img src="src/pictures/leveltwo.png" alt="Level 2" width="400"/>
 
 Level 3
-![Level 3](src/pictures/levelthree.png)
+<img src="src/pictures/levelthree.png" alt="Level 3" width="400"/>
 
 ⏸️ Pause Functionality
 Press P to pause the game and SPACE to resume.
-![Pause](src/pictures/pause.png)
+<img src="src/pictures/pause.png" alt="Pause" width="400"/>
 
 🛠️ Technologies Used
 Java
